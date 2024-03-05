@@ -104,21 +104,34 @@
 
 .effect:hover {
     color: #F06500;
-    cursor: cell;
+    cursor: pointer;
 }
 
 .img {
     height: 100%;
     padding-top: 40px;
     border-radius: 10px;
-    border: 1px solid #313131;
+    border: 1px solid #302F2F;
     margin-top: 20px;
     background: #141313;
+    border-bottom: none;
+}
 
+.padding-left {
+    padding-left: 30px;
 }
 
 .dbba {
     padding-left: 100px;
+}
+
+.img-2 {
+    border-radius: 10px;
+    border: 1px solid #302F2F;
+    border-radius: 10px;
+    margin-top: -1px;
+    background: #141313;
+    border-top: none;
 }
 
 .t {
@@ -153,7 +166,6 @@
 }
 
 .black {
-    background: #0C0C0C;
+    background: black;
     padding: 20px;
 }
-
