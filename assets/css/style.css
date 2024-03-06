@@ -110,7 +110,8 @@
 .img {
     height: 100%;
     padding-top: 40px;
-    border-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
     border: 1px solid #302F2F;
     margin-top: 20px;
     background: #141313;
@@ -126,12 +127,12 @@
 }
 
 .img-2 {
-    border-radius: 10px;
     border: 1px solid #302F2F;
     border-radius: 10px;
     margin-top: -1px;
     background: #141313;
     border-top: none;
+    border-bottom: none;
 }
 
 .t {
@@ -168,4 +169,7 @@
 .black {
     background: black;
     padding: 20px;
+}
+.border-bottom{
+    border-bottom:1px solid #302F2F ;
 }
